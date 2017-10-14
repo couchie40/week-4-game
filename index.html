@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+		<title>Crystals Collector</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+ 	<header>
+ 		<h2 id ="name">Crystals Collector!</h2>
+ 	</header>
+	
+	<div class="text-center">
+		<img id="jewels" src="assets/images/background_img.jpg">
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<p class="directions">You will be given a random number at the start of the game.</p>
+				<p class="directions">There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+				<p class="directions"> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+				<p class="directions">The value of each crystal is hidden from you until you click on it.</p>
+				<p class="directions">Each time the game starts, the game will change the values of each crystal.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<h1>Number to Guess: <span id="numberToGuess">0</span></h1>
+			</div>
+			<div class="col-md-5">
+				<h3>Wins: <span id="wins">0</span></h3>
+				<h3>Losses: <span id="losses">0</span></h3>
+			</div>
+		</div>
+	</div>
+
+    <div class="container"> -->
+	<div class="row">
+			<div class="col-md-8">
+			    <input type="button" id="blue" class="crystal" style="background-image: url(assets/images/blue.png);" name="blue">
+				<input type="button" id="yellow" class="crystal" style="background-image: url(assets/images/yellow.png);" name="yellow">
+				<input type="button" id="green" class="crystal" style="background-image: url(assets/images/green.png);" name="green">
+				<input type="button" id="red" class="crystal" style="background-image: url(assets/images/red.png);" name="red">
+			</div>
+		</div> 
+	</div> 
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h1>Your Total Score: <span id="total">0</span></h1>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
