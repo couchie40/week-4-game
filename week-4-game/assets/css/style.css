@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: url("../images/background_img.jpg");
+}
+header{
+		width: 250px;
+		height: 60px;
+		background-color: #D66324;
+		margin-bottom: 10px;
+		margin-left: 80px;
+}
+
+#name{
+		color: white;
+		text-align: center;
+		padding-top: 15px;
+}
+
+#jewels {
+	margin-top: 10px;
+}
+
+.directions {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	padding-left: 20px;
+	margin-bottom: : 10px;
+}
+
+h1, h3, #numberToGuess, #totalScore, #wins, #loses, .play-again {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+.crystal {
+	height: 150px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.playAgain {
+	background-color: #f30235;
+	margin-top: 25px;
+}
+
+#numberToGuess, #totalScore {
+	font-size: 36px;
+}
+
+#wins, #loses {
+	font-size: 24px;
+}

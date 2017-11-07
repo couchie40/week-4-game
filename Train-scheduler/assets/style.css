@@ -1,0 +1,20 @@
+.jumbotron h1 {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+
+.jumbotron {
+	background-color: #0288d1;
+}
+
+
+.table, form, .panel-title, #submit {
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.panel-info>.panel-heading, .btn-color {
+	background-color: #0288d1;
+	color: black;
+	border-color: #004a80;
+}
